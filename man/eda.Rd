@@ -4,10 +4,10 @@
 \alias{eda}
 \title{eda}
 \usage{
-eda(eset, response = NULL, demo = NULL, ncomp = 2)
+eda(esetList, response = NULL, demo = NULL, ncomp = 2)
 }
 \arguments{
-\item{eset}{list of nxp matrices (expression sets)}
+\item{esetList}{list of nxp matrices (expression sets)}
 
 \item{response}{variable of any type (optional)}
 
