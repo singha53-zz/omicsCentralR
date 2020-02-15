@@ -2,6 +2,8 @@ Package: omicsCentral
 Type: Package
 Title: Wrapper Functions for Common Bioinformatics Analyses
 Version: 0.1.0
+Suggests: testthat,
+    assertthat
 Author: Amrit Singh
 Maintainer: Amrit Singh <asingh.analytics@gmail.com>
 Description: Functions that perform commonly used bioinformatics analyses such as:
