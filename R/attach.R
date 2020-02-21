@@ -1,6 +1,6 @@
 # from https://github.com/tidyverse/tidyverse/blob/master/R/attach.R
 
-core <- c("omicsCentralEda")
+core <- c("omicsCentralDatasets", "omicsCentralEda")
 
 core_unloaded <- function() {
   search <- paste0("package:", core)
