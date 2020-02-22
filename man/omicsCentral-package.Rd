@@ -6,9 +6,9 @@
 \alias{omicsCentral-package}
 \title{omicsCentral: Wrapper Functions for Common Bioinformatics Analyses}
 \description{
-Set of packages that perform commonly used bioinformatics analyses such as:
-    exploratory data anlyses, differential expression analysis, network analysis, 
-    data integration approaches, literature mining, manuscript writing
+Set of packages that perform commonly used bioinformatics analyses.
+   These include exploratory data anlyses, differential expression analysis, network analysis, 
+   data integration approaches, literature mining, and manuscript writing.
 }
 \seealso{
 Useful links:
