@@ -4,17 +4,24 @@ Title: Wrapper Functions for Common Bioinformatics Analyses
 Version: 0.1.0
 Author: Amrit Singh
 Maintainer: Amrit Singh <asingh.analytics@gmail.com>
-Description: Set of packages that perform commonly used bioinformatics analyses such as:
-    exploratory data anlyses, differential expression analysis, network analysis, 
-    data integration approaches, literature mining, manuscript writing
-License: MIT
+Description: Set of packages that perform commonly used bioinformatics analyses.
+   These include exploratory data anlyses, differential expression analysis, network analysis, 
+   data integration approaches, literature mining, and manuscript writing.
+License: GPL-3 | file LICENSE
 URL: https://omicscentral.com
 Depends: 
-    R (>= 3.6.1)
+    R (>= 3.6)
 Imports: 
     omicsCentralDatasets (>= 0.1.0),
     omicsCentralEda (>= 0.1.0),
-    magrittr (>= 1.5)
+    dplyr (>= 0.8.3),
+    magrittr (>= 1.5),
+    cli (>= 1.1.0),
+    crayon (>= 1.3.4),
+    purrr (>= 0.3.3),
+    rlang (>= 0.4.0),
+    rstudioapi (>= 0.10),
+    tibble (>= 2.1.3),
 Suggests: testthat,
     assertthat
 Encoding: UTF-8
