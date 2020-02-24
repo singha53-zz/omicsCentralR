@@ -12,8 +12,9 @@ URL: https://omicscentral.com
 Depends: 
     R (>= 3.6)
 Imports: 
-    omicsCentralDatasets (>= 0.1.0),
-    omicsCentralEda (>= 0.1.0)
+    omicsCentralDatasets (>= 0.1),
+    omicsCentralEda (>= 0.1),
+    magrittr (>= 1.5),
 Suggests: testthat,
     assertthat
 Encoding: UTF-8
