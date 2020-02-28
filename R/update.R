@@ -28,7 +28,7 @@ omicscentral_update <- function(recursive = FALSE, repos = getOption("repos")) {
   cli::cat_line("Start a clean R session then run:")
 
   pkg_str <- paste0(deparse(behind$package), collapse = "\n")
-  cli::cat_line("install.packages(", pkg_str, ")")
+  cli::cat_line("install_github(singha53/", pkg_str, ")")
 
   invisible()
 }
