@@ -25,7 +25,7 @@ omicscentral_attach <- function() {
   msg(
     cli::rule(
       left = crayon::bold("Attaching packages"),
-      right = paste0("omicscentral ", package_version("omicsCentral"))
+      right = paste0("omicsCentral ", package_version("omicsCentral"))
     ),
     startup = TRUE
   )
