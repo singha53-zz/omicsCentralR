@@ -4,7 +4,7 @@
 
 release_bullets <- function() {
   c(
-    '`usethis::use_latest_dependencies(TRUE, "local")`',
+    '`usethis::use_latest_dependencies(TRUE, "github")`',
     '`omicscentral_dependency_dissuade()`'
   )
 }
