@@ -5,7 +5,7 @@
     return()
 
   crayon::num_colors(TRUE)
-  # omicscentral_attach()
+  omicscentral_attach()
 
   if (!"package:conflicted" %in% search()) {
     x <- omicscentral_conflicts()
